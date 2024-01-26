@@ -1,0 +1,106 @@
+#total{
+    width: 300px;
+    height: 450px;
+    margin: 5px auto;
+    position: relative;
+    text-align: center;
+    background-image: none ; 
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10%; 
+}
+
+
+#music-name{
+    top: 15px;
+    margin: 35px auto 40px;
+    width: 280px;
+    position: relative;
+    color: black;
+    text-shadow: 2px 2px 0px  white;
+    background-color: #f3f4f7;
+    border-radius: 50%;
+}
+#img{
+    display: block;
+    height: 230px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow : 0px 0px 38px -10px yellow;
+    animation: glow 0.3s infinite alternate ;
+    animation-play-state: paused;
+}
+
+@keyframes glow {
+    from {
+        box-shadow : 0px 0px 38px -10px yellow;
+    }
+    to {
+        box-shadow : 0px 0px 38px 10px #f3f4f7;
+    }
+}
+#range{
+    width: 300px;
+    height: 2px;
+    position: relative;
+    margin: 5px auto;
+    cursor: pointer;
+
+}
+#artist-name{
+    text-align: center;
+    margin: 25px auto 0px ;
+    width: 200px;
+    position: relative;
+    color: black;
+    text-shadow: 2px 2px 0px  white;
+    background-color: #f3f4f7;
+    border-radius: 50%;
+}
+ul{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+#music-txt,#music-backward,#music-play,#music-pause,#music-forward,#list-btn{
+    margin: 25px 14px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30%;
+    background-color: #f3f4f7;
+    border: #f3f4f7 solid 3px;
+    width: 15px;
+}
+.list{
+    background-color: bisque;
+    display: block;
+    text-align: center;
+    padding-left: none;
+    width: 220px;
+    height: 20px;
+    margin: 2px auto;
+    cursor: pointer;
+    background-color: #f3f4f7;
+    border-radius: 30%;
+}
+
+#dList{
+    display: block;
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+#txt-el{
+    display: block;
+    width: 230px;
+    height: 230px;
+    text-align: left;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+    overflow: auto;
+    background-color: antiquewhite;
+}
